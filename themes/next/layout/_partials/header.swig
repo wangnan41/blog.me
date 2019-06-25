@@ -19,7 +19,7 @@
       {% if theme.seo %}
         <h1 class="site-subtitle" itemprop="description">{{ config.subtitle }}</h1>
       {% else %}
-        <p class="site-subtitle">{{ config.subtitle }}</p>
+        <p class="site-subtitle" style="display:inline-block;margin:0;padding:0;">{{ config.subtitle }}</p>
       {% endif %}
   </div>
 
