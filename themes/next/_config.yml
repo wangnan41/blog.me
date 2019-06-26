@@ -101,17 +101,18 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  fe: / || home
-  travel: /travel || plane
-  book: /book || book
+  fe: categories/fe || home
+  translation: categories/translation || language
+  travel: categories/travel || plane
+  book: categories/book || book
   #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
-  archives: /archives/ || archive
+  archives: categories/archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  about: /about || user
+  about: categories/about || user
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -824,3 +825,8 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
